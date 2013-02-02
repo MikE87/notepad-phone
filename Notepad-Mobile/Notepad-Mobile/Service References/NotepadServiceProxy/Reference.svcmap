@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="25abb273-24f6-49a8-9447-0cbc6f6cb2d9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1:81/Notepad.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="5d34496a-1da9-4b7f-abd7-3ff891cc9619" SourceId="1" SourceUrl="http://127.0.0.1:81/Notepad.svc?wsdl" />
+    <MetadataFile FileName="Notepad.disco" MetadataType="Disco" ID="6c07a34b-b02f-44c7-9e45-389e8bb670bd" SourceId="1" SourceUrl="http://127.0.0.1:81/Notepad.svc?disco" />
+    <MetadataFile FileName="Notepad.xsd" MetadataType="Schema" ID="7f5ff3e3-d3ed-414f-9c9a-549106f4402f" SourceId="1" SourceUrl="http://127.0.0.1:81/Notepad.svc?xsd=xsd1" />
+    <MetadataFile FileName="Notepad1.xsd" MetadataType="Schema" ID="619ed4c8-e3a3-480c-95eb-135ecc552283" SourceId="1" SourceUrl="http://127.0.0.1:81/Notepad.svc?xsd=xsd0" />
+    <MetadataFile FileName="Notepad2.xsd" MetadataType="Schema" ID="2d02de23-8155-4814-a565-c8527b2088df" SourceId="1" SourceUrl="http://127.0.0.1:81/Notepad.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

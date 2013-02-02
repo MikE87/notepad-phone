@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="59d6611f27a44f05a106db3c18b65fdf" Name="Diagram1">
+        <EntityTypeShape EntityType="NotepadSharedModel.Group" Width="1.5" PointX="3.875" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NotepadSharedModel.GroupNote" Width="1.5" PointX="7.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NotepadSharedModel.GroupUser" Width="1.5" PointX="0.875" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NotepadSharedModel.Note" Width="1.5" PointX="7.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NotepadSharedModel.User" Width="1.5" PointX="0.875" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="NotepadSharedModel.FK_GroupNote_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="NotepadSharedModel.FK_GroupUser_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="NotepadSharedModel.FK_GroupNote_Note" ManuallyRouted="false" />
+        <AssociationConnector Association="NotepadSharedModel.FK_GroupUser_User" ManuallyRouted="false" />
+        <AssociationConnector Association="NotepadSharedModel.FK_Note_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
